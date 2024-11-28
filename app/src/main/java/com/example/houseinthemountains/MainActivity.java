@@ -42,12 +42,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @SuppressLint("SetTextI18n")
     public void counterPlus(){
         counter++;
         text.setText(counter + " polubien");
     }
-    @SuppressLint("SetTextI18n")
     public void counterMinus(){
         if(counter != 0) {
             counter--;
